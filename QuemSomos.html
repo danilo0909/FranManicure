@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <table>
+            <tr>
+                <img src="Imagem/logo.jpg" alt="logo" scr="logo.jpg">
+            </tr>
+        </table>
+    </header>    
+    
+    <div class="topnav">
+      <a href="PaginaInicial.html">Pagina Inicial</a>
+      <a href="QuemSomos.html">Quem Somos</a>
+      <a href="Servico.html">Serviço</a>
+      <a href="Contato.html">Contato</a>
+    </div>
+      
+    <div class="top-container">
+
+      <img src="Imagem/QuemSomos.jpg" alt="QuemSomos" scr="QuemSomos.jpg">
+
+      </div>
+      
+      <div class="header" id="myHeader">
+        <h2>Manicure Francisca</h2>
+      </div>
+      
+      <div class="content">
+        
+        <p>Cuidando da sua beleza é nossa alegria .</p>
+        <p>Somos apaixonados por beleza e bem-estar, e é essa paixão que nos impulsiona todos os dias. Na SCHWYZER ,</p>
+        <p>estamos comprometidos em proporcionar a você uma experiência excepcional de cuidados com as unhas.</p>
+        <p>Nossa equipe é composta por profissionais altamente qualificados e dedicados que têm anos de experiência </p>
+        <p>no mundo da manicure.Cada membro da nossa equipe é apaixonado por sua arte e está comprometido em criar </p>
+        <p>unhas deslumbrantes e duradouraspara nossos clientes.</p> 
+        <p>projetado para que você possa desfrutar de momentos de mimos e relaxamento enquanto cuidamos de suas unhas.</p>
+        <p>não somos apenas especialistas em unhas; somos parceiros no seu caminho para se sentir bem consigo mesmo.</p>  
+        <p>Estamos ansiosos para recebê-lo e cuidar da sua beleza e bem-estar.</p>   
+      </div> 
+        
+      
+      
+      <script>
+      window.onscroll = function() {myFunction()};
+      
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+      </script>
+
+      
+        
+      
+    <div class="footer">
+        <p>Consultoria@M&S</p>
+    </div>
+
+</body>
+</html>
